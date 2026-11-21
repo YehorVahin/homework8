@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Веломайстерня «Спиця»</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__inner">
+        <a class="header__logo" href="#top">Ювелірна майстерня "Dora"</a>
+
+        <nav class="nav" aria-label="Основна навігація">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a
+                class="nav__link nav__link--active"
+                href="#top"
+                aria-current="page"
+                >Головна</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#services">Послуги</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#intro">Про майстерню</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contacts">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main" id="top">
+      <section class="intro" id="intro">
+        <h1 class="intro__title">Ремонт ювелірних виробів в цей же день</h1>
+        <p class="intro__text">
+          Приймаємо по запису щодня з 9:00 до 20:00. Називаємо вартість до
+          початку робіт.
+        </p>
+      </section>
+
+      <section class="services" id="services" aria-labelledby="services-title">
+        <h2 class="services__title" id="services-title">Послуги</h2>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__head">
+              <h3 class="card__title">Ремонт ювелірних виробів</h3>
+              <span class="card__price">від 300 ₴</span>
+            </div>
+            <p class="card__text">
+              Пайка, заміна вставок, збільшення та зменшення розмірів каблучок.
+            </p>
+            <a class="card__link" href="#contacts">Записатися</a>
+          </article>
+
+          <article class="card card--accent">
+            <div class="card__head">
+              <h3 class="card__title">
+                Виготовлення різних брендових та індивідуальних моделей
+              </h3>
+              <span class="card__price">від 1000 $</span>
+            </div>
+            <p class="card__text">
+              Виготовляємо різні моделі ювелірних виробів, або розробляемо їх за
+              Вашим ескізом.
+            </p>
+            <a class="card__link" href="#contacts">Записатися</a>
+          </article>
+
+          <article class="card">
+            <div class="card__head">
+              <h3 class="card__title">
+                Обслуговуваннятачиситкаювелірнихприкрас
+              </h3>
+              <span class="card__price">від 1200 ₴</span>
+            </div>
+            <p class="card__text">
+              Чистка та за необхідності нанесення покриття на прикраси
+            </p>
+            <a class="card__link" href="#contacts">Записатися</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="footer__inner">
+        <p class="footer__text">вул. Вишнева, 12, Вінниця</p>
+        <p class="footer__text">+380 00 000 00 00</p>
+        <p class="footer__text">© 2026 Ювелірна майстерня "Dora"</p>
+      </div>
+    </footer>
+  </body>
+</html>
